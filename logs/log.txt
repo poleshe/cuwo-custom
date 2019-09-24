@@ -1,0 +1,142 @@
+[2019-09-22 20:06:51,266] cuwo server started on Sun Sep 22 20:06:51 2019
+[2019-09-22 20:06:51,266] Loaded script 'log'
+[2019-09-22 20:06:51,267] Loaded script 'ddos'
+[2019-09-22 20:06:51,271] Loaded script 'commands'
+[2019-09-22 20:06:51,272] Loaded script 'welcome'
+[2019-09-22 20:06:51,273] Loaded script 'ban'
+[2019-09-22 20:06:51,274] Loaded script 'console'
+[2019-09-22 20:06:51,289] Loaded script 'master'
+[2019-09-22 20:06:51,317] Loaded script 'anticheat'
+[2019-09-22 20:06:51,317] cuwo running on port 12345
+[2019-09-22 20:08:16,507] cuwo anti-cheat - dual wield bug weapon (slot6) = 1 weapon (slot7) = 15
+[2019-09-22 20:08:16,508] cuwo anti-cheat - irc not found, logging to irc automatically turned off
+[2019-09-22 20:08:16,508] cuwo anti-cheat - WARRO(192.168.1.44) was removed for: illegal items are equipped.
+[2019-09-22 20:10:06,326] Player YETI joined
+[2019-09-22 20:14:17,354] Player YETI left
+[2019-09-22 20:21:16,741] Player WARRO joined
+[2019-09-22 20:25:48,104] WARRO: wwawwww
+[2019-09-22 20:29:00,933] Player WARRO left
+[2019-09-22 21:01:33,490] Stopping...
+[2019-09-22 21:01:35,853] cuwo server started on Sun Sep 22 21:01:35 2019
+[2019-09-22 21:01:35,853] Loaded script 'log'
+[2019-09-22 21:01:35,855] Loaded script 'ddos'
+[2019-09-22 21:01:35,868] Loaded script 'commands'
+[2019-09-22 21:01:35,869] Loaded script 'welcome'
+[2019-09-22 21:01:35,871] Loaded script 'ban'
+[2019-09-22 21:01:35,872] Loaded script 'console'
+[2019-09-22 21:01:35,877] Loaded script 'master'
+[2019-09-22 21:01:35,881] Loaded script 'anticheat'
+[2019-09-22 21:01:35,883] cuwo running on port 12345
+[2019-09-22 21:01:54,678] Player WARRO joined
+[2019-09-22 21:05:21,822] Player WARRO left
+[2019-09-22 21:05:26,731] Stopping...
+[2019-09-22 21:05:28,848] cuwo server started on Sun Sep 22 21:05:28 2019
+[2019-09-22 21:05:28,849] Loaded script 'log'
+[2019-09-22 21:05:28,849] Loaded script 'ddos'
+[2019-09-22 21:05:28,860] Loaded script 'commands'
+[2019-09-22 21:05:28,861] Loaded script 'welcome'
+[2019-09-22 21:05:28,862] Loaded script 'ban'
+[2019-09-22 21:05:28,864] Loaded script 'console'
+[2019-09-22 21:05:28,877] Loaded script 'master'
+[2019-09-22 21:05:28,881] Loaded script 'anticheat'
+[2019-09-22 21:05:28,883] cuwo running on port 12345
+[2019-09-22 21:05:38,890] Player WARRO joined
+[2019-09-22 21:07:02,474] Stopping...
+[2019-09-22 21:07:04,050] cuwo server started on Sun Sep 22 21:07:04 2019
+[2019-09-22 21:07:04,050] Loaded script 'log'
+[2019-09-22 21:07:04,051] Loaded script 'ddos'
+[2019-09-22 21:07:04,062] Loaded script 'commands'
+[2019-09-22 21:07:04,063] Loaded script 'welcome'
+[2019-09-22 21:07:04,064] Loaded script 'ban'
+[2019-09-22 21:07:04,064] Loaded script 'console'
+[2019-09-22 21:07:04,079] Loaded script 'master'
+[2019-09-22 21:07:04,083] Loaded script 'anticheat'
+[2019-09-22 21:07:04,084] cuwo running on port 12345
+[2019-09-22 21:07:32,166] Player WARRO joined
+[2019-09-22 21:14:13,995] Player WARRO left
+[2019-09-22 21:14:20,625] Stopping...
+[2019-09-22 21:14:45,672] cuwo server started on Sun Sep 22 21:14:45 2019
+[2019-09-22 21:14:45,673] Loaded script 'log'
+[2019-09-22 21:14:45,673] Loaded script 'ddos'
+[2019-09-22 21:14:45,679] Loaded script 'commands'
+[2019-09-22 21:14:45,680] Loaded script 'welcome'
+[2019-09-22 21:14:45,680] Loaded script 'ban'
+[2019-09-22 21:14:45,681] Loaded script 'console'
+[2019-09-22 21:14:45,685] Loaded script 'master'
+[2019-09-22 21:14:45,688] Loaded script 'anticheat'
+[2019-09-22 21:14:45,689] cuwo running on port 12345
+[2019-09-22 21:14:55,337] Player WARRO joined
+[2019-09-22 21:22:19,564] Stopping...
+[2019-09-22 21:25:34,430] cuwo server started on Sun Sep 22 21:25:34 2019
+[2019-09-22 21:25:34,431] Loaded script 'log'
+[2019-09-22 21:25:34,431] Loaded script 'ddos'
+[2019-09-22 21:25:34,433] Loaded script 'commands'
+[2019-09-22 21:25:34,433] Loaded script 'welcome'
+[2019-09-22 21:25:34,434] Loaded script 'ban'
+[2019-09-22 21:25:34,434] Loaded script 'console'
+[2019-09-22 21:25:34,437] Loaded script 'master'
+[2019-09-22 21:25:34,439] Loaded script 'anticheat'
+[2019-09-22 21:25:34,440] cuwo running on port 12345
+[2019-09-22 21:59:48,747] Player WARRO joined
+[2019-09-22 22:03:47,842] Player WARRO left
+[2019-09-22 22:04:25,643] Stopping...
+[2019-09-22 22:04:26,775] cuwo server started on Sun Sep 22 22:04:26 2019
+[2019-09-22 22:04:26,775] Loaded script 'log'
+[2019-09-22 22:04:26,775] Loaded script 'ddos'
+[2019-09-22 22:04:26,782] Loaded script 'commands'
+[2019-09-22 22:04:26,783] Loaded script 'welcome'
+[2019-09-22 22:04:26,784] Loaded script 'ban'
+[2019-09-22 22:04:26,784] Loaded script 'console'
+[2019-09-22 22:04:26,790] Loaded script 'master'
+[2019-09-22 22:04:26,793] Loaded script 'anticheat'
+[2019-09-22 22:04:26,793] cuwo running on port 12345
+[2019-09-22 22:04:39,050] Player WARRO joined
+[2019-09-22 22:07:37,960] Stopping...
+[2019-09-22 22:07:39,384] cuwo server started on Sun Sep 22 22:07:39 2019
+[2019-09-22 22:07:39,385] Loaded script 'log'
+[2019-09-22 22:07:39,385] Loaded script 'ddos'
+[2019-09-22 22:07:39,391] Loaded script 'commands'
+[2019-09-22 22:07:39,392] Loaded script 'welcome'
+[2019-09-22 22:07:39,393] Loaded script 'ban'
+[2019-09-22 22:07:39,393] Loaded script 'console'
+[2019-09-22 22:07:39,401] Loaded script 'master'
+[2019-09-22 22:07:39,404] Loaded script 'anticheat'
+[2019-09-22 22:07:39,404] cuwo running on port 12345
+[2019-09-22 22:08:04,858] Player WARRO joined
+[2019-09-22 22:14:11,593] WARRO was killed
+[2019-09-22 22:15:09,124] WARRO: W
+[2019-09-22 22:15:23,285] Player WARRO left
+[2019-09-22 22:15:27,838] Stopping...
+[2019-09-22 22:31:29,953] cuwo server started on Sun Sep 22 22:31:29 2019
+[2019-09-22 22:31:29,954] Loaded script 'log'
+[2019-09-22 22:31:29,954] Loaded script 'ddos'
+[2019-09-22 22:32:07,693] cuwo server started on Sun Sep 22 22:32:07 2019
+[2019-09-22 22:32:07,693] Loaded script 'log'
+[2019-09-22 22:32:07,694] Loaded script 'ddos'
+[2019-09-22 22:32:07,699] Loaded script 'commands'
+[2019-09-22 22:32:07,699] Loaded script 'welcome'
+[2019-09-22 22:32:07,700] Loaded script 'ban'
+[2019-09-22 22:32:07,700] Loaded script 'console'
+[2019-09-22 22:32:07,704] Loaded script 'master'
+[2019-09-22 22:32:07,707] Loaded script 'anticheat'
+[2019-09-22 22:32:07,707] cuwo running on port 12345
+[2019-09-22 22:32:24,228] Player WARRO joined
+[2019-09-22 22:34:37,177] WARRO: asds
+[2019-09-22 22:34:40,412] Player WARRO left
+[2019-09-22 22:34:52,452] Stopping...
+[2019-09-22 22:34:53,631] cuwo server started on Sun Sep 22 22:34:53 2019
+[2019-09-22 22:34:53,633] Loaded script 'log'
+[2019-09-22 22:34:53,635] Loaded script 'ddos'
+[2019-09-22 22:41:27,402] cuwo server started on Sun Sep 22 22:41:27 2019
+[2019-09-22 22:41:27,403] Loaded script 'log'
+[2019-09-22 22:41:27,404] Loaded script 'ddos'
+[2019-09-22 22:41:27,414] Loaded script 'commands'
+[2019-09-22 22:41:27,415] Loaded script 'welcome'
+[2019-09-22 22:41:27,415] Loaded script 'ban'
+[2019-09-22 22:41:27,416] Loaded script 'console'
+[2019-09-22 22:41:27,431] Loaded script 'master'
+[2019-09-22 22:41:27,433] Loaded script 'anticheat'
+[2019-09-22 22:41:27,434] cuwo running on port 12345
+[2019-09-22 22:41:42,585] Player WARRO joined
+[2019-09-22 22:48:01,833] Player WARRO left
+[2019-09-22 22:48:08,247] Stopping...

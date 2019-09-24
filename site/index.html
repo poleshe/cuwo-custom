@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>cuwo - An open Cube World server written in Python and C++</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+    <link rel="stylesheet" href="css/cuwo.css">
+    <link rel="stylesheet" href="css/jquery.tablesorter.bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.tablesorter.pager.css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/cuwo.js"></script>
+    <script type="text/javascript" src="js/jquery.pages.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tablesorter.widgets.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tablesorter.pager.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <img class="brand" src="img/cuwo.png" alt="cuwo" title="cuwo" style="height:1em;">
+          <ul class="nav page-nav"></ul>
+          <ul data-page-external="#servers" class="nav pull-right" style="display:none">
+            <li><button class="btn btn-success" onclick="getServers();">Refresh</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div data-page-id="#about" data-page-title="About" class="row" style="display:none">
+        <script type="text/javascript">
+          function about() {
+            if (!doneGit) getCommits(); doneGit = true;
+            clearTimeout(reload_action);
+          }
+        </script>
+        <div class="span12">
+          <div class="hero-unit">
+            <h1><img src="img/cuwo.png" alt="cuwo" title="cuwo"> <small class="muted">(pronounced 'coo-woo')</small></h1>
+            <p>is an open server implementation, written in Python and C++, for <a href="https://picroma.com/cubeworld" target="_blank">Cube World</a>.</p>
+            <div style="margin:0 0 10px">
+              <a href="https://github.com/matpow2/cuwo" target="_blank" class="btn btn-primary btn-large">
+                <i class="icon-github-alt"></i> Fork on GitHub
+              </a>
+              <div class="btn-group">
+                <a class="btn btn-success btn-large dropdown-toggle" data-toggle="dropdown">
+                  <i class="icon-download-alt"></i> Download
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="http://cuwo.org/bin/latest.php" target="_blank" title="Download - Windows Binaries"><i class="icon-windows"></i> Windows Binaries</a></li>
+                  <li><a href="https://github.com/matpow2/cuwo/archive/master.zip" target="_blank" title="Download - Source"><i class="icon-linux"></i> Source</a></li>
+                </ul>
+              </div>
+            </div>
+            <p><small>Need help running cuwo? <a href="https://github.com/matpow2/cuwo/wiki" target="_blank">Read the wiki</a> or join us in <a href="irc://irc.esper.net/cuwo">#cuwo</a> on the EsperNet IRC network.</small></p>
+          </div>
+        </div>
+        <div class="span12">
+          <h1>cuwo is...</h1>
+          <div class="row">
+            <div class="span4">
+              <h4><i class="icon-globe"></i> Open</h4>
+              <p>cuwo is completely open to the public under the <em>GNU General Public License</em>. Take a peek into the source code and tinker with the features!</p>
+            </div>
+            <div class="span4">
+              <h4><i class="icon-rocket"></i> Fast</h4>
+              <p>With less processing power required to run in a stable state, cuwo is a fast and reliable option for a Cube World server.</p>
+            </div>
+            <div class="span4">
+              <h4><i class="icon-wrench"></i> Moddable</h4>
+              <p>Have a feature you'd like to see in cuwo? Make that custom feature with a script! Submit your script to <a href="https://github.com/matpow2/cuwo-scripts" target="_blank">matpow2/cuwo-scripts</a> to share it!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="span4">
+              <h4><i class="icon-linux"></i> Cross Platform</h4>
+              <p>Own a <em>non-Windows</em> server? You are free to run cuwo on any platform that supports <em>Python</em>.</p>
+            </div>
+            <div class="span4">
+              <h4><i class="icon-star"></i> Featureful</h4>
+              <p>Right out of the box, cuwo comes with many features such as banning players, rights management, DDoS protection, PvP, server logging, and much more!</p>
+            </div>
+            <div class="span4">
+              <h4><i class="icon-signal"></i> Scalable</h4>
+              <p>With support for over 40 simultaneously connected players, you can host a server for your friends or a whole community.</p>
+            </div>
+          </div>
+        </div>
+        <div class="span12">
+          <h2>Commit History <small><a href="https://github.com/matpow2/cuwo/commits/" target="_blank" title="View on GitHub" class="tip" data-placement="right"><i class="icon-share"></i></a></small></h2>
+          <table id="commits" class="table table-bordered table-striped table-hover">
+            <thead>
+              <tr>
+                <th class="span1">Author</th>
+                <th>Commit Message <small class="muted">Click to show/hide message</small></th>
+                <th class="span1">SHA</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div data-page-id="#servers" data-page-title="Server List" class="row" style="display:none">
+        <script type="text/javascript">
+          function servers() {
+            if (!doneServers) getServers(); doneServers = true;
+            reload_action = setTimeout('getServers()', 20000);
+          }
+        </script>
+        <div class="span12">
+          <table id="servers" class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th>Server Name</th>
+                <th>Mode</th>
+                <th>Players</th>
+                <th>IP</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot id="pagination" style="display:none">
+              <tr>
+                <th colspan="5" class="pager form-horizontal">
+                  <button type="button" class="btn first" title="First page"><i class="icon-step-backward"></i></button>
+                  <button type="button" class="btn prev" title="Previous page"><i class="icon-arrow-left"></i></button>
+                  <span class="pagedisplay"></span>
+                  <button type="button" class="btn next" title="Next page"><i class="icon-arrow-right"></i></button>
+                  <button type="button" class="btn last" title="Last page"><i class="icon-step-forward"></i></button>
+                  <select class="pagesize input-mini" title="Servers per page">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                    <option value="60">60</option>
+                    <option value="70">70</option>
+                    <option value="80">80</option>
+                    <option value="90">90</option>
+                    <option value="100">100</option>
+                  </select>
+                  <select class="pagenum input-mini" title="Jump to page"></select>
+                </th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
