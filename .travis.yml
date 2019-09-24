@@ -1,0 +1,11 @@
+language: python
+sudo: false
+dist: trusty
+python:
+ - '3.6'
+install:
+ - pip install -r requirements.txt
+ - python setup.py build_ext --inplace
+ - python -m cuwo.download travis travispass
+ -ls , && ls ./data
+script: ls . && ls ./data && python ./test/test_tgen.py
