@@ -140,3 +140,14 @@
 [2019-09-22 22:41:42,585] Player WARRO joined
 [2019-09-22 22:48:01,833] Player WARRO left
 [2019-09-22 22:48:08,247] Stopping...
+[2019-09-24 20:41:57,533] cuwo server started on Tue Sep 24 20:41:57 2019
+[2019-09-24 20:41:57,535] Loaded script 'log'
+[2019-09-24 20:41:57,541] Loaded script 'ddos'
+[2019-09-24 20:41:57,562] Loaded script 'commands'
+[2019-09-24 20:41:57,572] Loaded script 'welcome'
+[2019-09-24 20:41:57,581] Loaded script 'ban'
+[2019-09-24 20:41:57,587] Loaded script 'console'
+[2019-09-24 20:41:57,616] Loaded script 'master'
+[2019-09-24 20:41:57,657] Loaded script 'anticheat'
+[2019-09-24 20:41:57,658] cuwo running on port 12345
+[2019-09-24 20:42:09,113] Stopping...
