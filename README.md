@@ -3,7 +3,7 @@
 
 # MODDED CUWO
 
-A CUWO server (Created by matpow2 & team) modded to fit into the new patch, with a bunch of new minecraft-like commands & custom server ranks.
+A CUWO server (Created by matpow2 & team) with a bunch of new minecraft-like commands & custom server ranks, an auto-installer for ubuntu18 and docker support (WIP).
 
 ## Installation
 
